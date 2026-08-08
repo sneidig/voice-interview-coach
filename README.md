@@ -1,64 +1,53 @@
 # Voice Interview Coach
 
-Nine markdown files you attach to a chat to run interview coaching by voice.
+Nine markdown files that turn a Claude conversation into an interview coach you talk to out loud.
 
 Adapted from the [Interview Coach skill](https://github.com/noamseg/interview-coach-skill) by [Noam Segal](https://www.linkedin.com/in/noamsegal/), MIT licensed. The workflows, the five scoring dimensions, the drill progression, and the debrief sequence are his. This is a much smaller thing carved out of it, built for one feature it doesn't have.
 
 ## What this adds
 
-Voice mode doesn't load skills, since skills run in the code execution environment and voice mode doesn't have one. These files carry their workflow inline instead, so you can attach one, switch to voice, and run a session hands-free.
+Claude's voice mode can't load skills, since skills need the code execution environment and voice mode doesn't have one. These files carry their instructions inline instead. Attach one to a chat, switch to voice, and practice by talking.
 
 ## Quick Start
 
-1. Get the files.
-
-Open `modules/` above, click the module you want, and download it. That's all you need to start.
-
-If you'd rather have all of them, use the green Code button and pick Download ZIP, or clone it:
+1. Clone the repo:
 
 ```bash
 git clone https://github.com/sneidig/voice-interview-coach.git
+cd voice-interview-coach
 ```
 
-2. Make your profile.
+Or [download it as a ZIP](https://github.com/sneidig/voice-interview-coach/archive/refs/heads/main.zip) and unzip.
 
-Copy `my-profile-template.md` and name the copy `my-profile.md`. Fill in the Basics section, which is five fields and takes a couple of minutes. Leave everything below it empty, since sessions fill those in for you.
+2. Make your profile:
 
-Skip this step if you just want to try a module. It works without a profile.
+```bash
+cp my-profile-template.md my-profile.md
+```
 
-3. Start the chat on a desktop and attach the files.
+Open `my-profile.md` and fill in the Basics section at the top. Five fields. Leave the rest blank, sessions fill those in.
 
-Open a new chat in the Claude app. Attach `modules/01-story-builder.md` and send that message. Then attach `my-profile.md` in a second message.
+3. Start a new chat in the Claude app and attach `modules/01-story-builder.md`. Send it.
 
-One file per message. Sending both together makes voice sessions struggle to read them.
+4. Attach `my-profile.md` in a second message. One file per message, or voice sessions struggle to read them.
 
-Desktop is just easier for picking files. The chat syncs across your devices, so where you start it doesn't lock you in.
+5. Switch to voice mode and say "let's start."
 
-4. Switch to voice, on whatever device you want.
+6. When you're done, switch back to text and ask for your updated profile. Save what it gives you over `my-profile.md`.
 
-Open that same conversation on your tablet or phone, switch to voice mode, and say "let's start." Now put the screen down and talk.
+Requires any Claude plan, free included. Works on desktop, tablet, or phone.
 
-If you'd rather stay on the desktop, that works too. The point is that the files are already in the conversation, so voice mode has everything it needs.
+**On a tablet?** Start the chat on a computer where attaching files is easier, then open that same conversation on the tablet and switch to voice there. Chats sync across devices.
 
-5. Save what you did.
-
-When the session ends, go back to that conversation on your desktop, switch out of voice back to text, and ask for your updated profile. You'll get the whole `my-profile.md` back with the session's results already merged in. Save it over your copy.
-
-That's how scores, stories, and interview history build up across sessions.
-
-Requires any Claude plan. The free tier is enough.
-
-**One module per session.** They give feedback at different points, so running several at once gets muddled. A new chat costs nothing.
-
-Nothing in these files is Claude-specific. They're plain markdown with no special syntax, so they should port to any assistant that takes an attachment and does voice, though I've only run them in Claude.
+**One module per conversation.** They give feedback at different moments, so mixing them gets muddled.
 
 ## The modules
 
-They're numbered in the order you'd use them across a job search. Start at the top and work down, or jump to whichever one matches where you are.
+Numbered in the order you'd use them across a job search. Start with `01-story-builder.md`, since the drills and mocks need stories to work with.
 
 | File | What it does | How long |
 |---|---|---|
-| `01-story-builder.md` | Surfaces stories out loud and sharpens them | 20 to 40 min |
+| `01-story-builder.md` | Surfaces your stories out loud and sharpens them | 20 to 40 min |
 | `02-pitch.md` | Tell me about yourself, plus the 10, 30, and 60 second versions | 20 to 30 min |
 | `03-practice-drills.md` | Short drills with feedback every round. Compression, pushback, pivots, gap handling | 15 to 30 min |
 | `04-mock-interview.md` | Full simulated interview, 4 to 6 questions, no feedback until the end | 30 to 45 min |
@@ -68,7 +57,11 @@ They're numbered in the order you'd use them across a job search. Start at the t
 | `08-debrief.md` | Same-day capture after a real interview | 10 to 20 min |
 | `09-negotiation.md` | Rehearses the offer call | 20 to 30 min |
 
-Start with `01-story-builder.md`. The drills and mocks need material to work with, and that's where the material comes from.
+## The profile file
+
+Claude doesn't remember anything between conversations, so each session starts cold without it. `my-profile.md` is what carries your stories, scores, and interview history forward.
+
+Update it at the end of every session (step 6 above) and it builds up over time. It's in `.gitignore`, so your personal details never get committed.
 
 ## What these cover
 
@@ -78,13 +71,13 @@ Answers are scored on the same five dimensions as the original: Substance, Struc
 
 Not in here: transcript analysis, resume and LinkedIn work, JD decoding, outreach coaching, company research and prep briefs, role-fit assessment, and the calibration engine that checks whether practice scores predict real outcomes.
 
-Those come down to two things a single attached file can't do. Some of them need computed state across sessions. The rest is document work, where reading a resume out loud is worse than editing it on a screen. The [full skill](https://github.com/noamseg/interview-coach-skill) does all of it, and it's where to go once you're back at a desk.
+Those come down to two things an attached file can't do. Some need computed state across sessions. The rest is document work, where reading a resume out loud is worse than editing it on a screen. The [full skill](https://github.com/noamseg/interview-coach-skill) does all of it, and it's where to go once you're back at a desk.
 
 ## Using both together
 
 The full skill already supports spoken practice. Pair it with a dictation tool like Superwhisper and you can talk through mock interviews while keeping the scoring, the transcript analysis, and the coaching state that carries between sessions. That's the stronger setup when you're at your desk.
 
-These modules are for the times you're not. A tablet on the couch, a phone before a call, a machine without your tools installed. Voice mode handles the speaking on its own, so there's nothing to set up.
+These modules are for the times you're not. A tablet on the couch, a phone before a call, a machine without your tools installed. Voice mode handles the speaking on its own, so there's nothing to install.
 
 They also chain. Talk through a mock here, then bring the transcript to the full skill and run `analyze` for scoring that sticks around.
 
