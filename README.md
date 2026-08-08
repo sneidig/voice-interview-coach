@@ -53,8 +53,6 @@ Attach `my-profile.md` in a second message after the module, then start.
 
 When the session ends, switch out of voice back to text and ask for your updated profile from a desktop session. The chat syncs across devices, so you can talk through the session on a tablet and pick the same conversation up on a desktop where the file lives. You'll get the whole file with that session's results already in it, so you save over your old copy instead of merging anything by hand. That's how scores, stories, and interview history accumulate across sessions.
 
-`my-profile.md` is gitignored. Your copy stays on your machine.
-
 ## License
 
 MIT, same as the original. See `LICENSE`.
