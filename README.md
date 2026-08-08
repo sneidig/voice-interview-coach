@@ -37,7 +37,7 @@ Open `my-profile.md` and fill in the Basics section at the top. Five fields. Lea
 
 6. Run module 02 the same way, with the profile you just updated. Then 03. Keep going down the list.
 
-Each session reads what the last one wrote, so by the time you hit the mock interview it already knows your stories, and by the debrief it knows how you've been scoring. That only works if you do step 5 every time.
+Each session reads what the last one wrote, so by the time you hit the mock interview it already knows your stories, and by the debrief it knows how you've been scoring. That only works if you re-paste in your updated profile every time.
 
 Requires any Claude plan, free included. Works on desktop, tablet, or phone.
 
