@@ -12,11 +12,14 @@ Voice mode doesn't load skills, since skills run in the code execution environme
 
 1. Download the module you want from `modules/`.
 2. Start a new chat in the Claude app.
-3. Attach the file. Attach `my-profile.md` too if you've made one.
-4. Switch to voice mode.
-5. Say "let's start."
+3. Attach the module file and send it.
+4. If you're using `my-profile.md`, attach it in a second message.
+5. Switch to voice mode.
+6. Say "let's start."
 
-One module per session. They give feedback at different points, so attaching several at once gets muddled. A new chat costs nothing.
+Attach one file per message. Sending the module and your profile together in the same message makes voice sessions struggle to read them.
+
+One module per session too. They give feedback at different points, so running several at once gets muddled. A new chat costs nothing.
 
 Works on iPad, Android tablet, phone, or desktop. Free plan included.
 
@@ -42,7 +45,7 @@ Start with `03-story-builder.md` if you're starting from scratch. You need mater
 
 Chats don't carry over, so a module starts fresh each time.
 
-Copy `my-profile-template.md` to `my-profile.md`, fill in your target role and background, and attach it alongside whatever module you're running. Most modules end by offering a block you can paste back in, so it builds up as you go.
+Copy `my-profile-template.md` to `my-profile.md` and fill in your target role and background. Attach it in a second message after the module, then start. Most modules end by offering a block you can paste back in, so it builds up as you go.
 
 It's gitignored. Your copy stays on your machine.
 

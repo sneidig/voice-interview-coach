@@ -1,6 +1,8 @@
 # Module: Story Builder
 
-**Setup:** New chat → attach this file (and `my-profile.md` if you have one) → switch to voice → say "let's build some stories."
+**Setup:** New chat → attach this file → switch to voice → say "let's build some stories."
+
+Attach one file at a time. If you are using `my-profile.md`, send it in a second message before you start, not together with this one.
 
 ---
 

@@ -1,6 +1,8 @@
 # Module: Recruiter Screen and Salary Question
 
-**Setup:** New chat → attach this file (and `my-profile.md` if you have one) → switch to voice → say "recruiter call coming up."
+**Setup:** New chat → attach this file → switch to voice → say "recruiter call coming up."
+
+Attach one file at a time. If you are using `my-profile.md`, send it in a second message before you start, not together with this one.
 
 Role-play works far better spoken than typed. That's the point of this one.
 

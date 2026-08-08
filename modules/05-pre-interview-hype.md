@@ -1,6 +1,8 @@
 # Module: Pre-Interview Warmup
 
-**Setup:** 15–30 minutes before a real interview. New chat → attach this file (and `my-profile.md`) → switch to voice → say "I have an interview in 20 minutes."
+**Setup:** 15–30 minutes before a real interview. New chat → attach this file → switch to voice → say "I have an interview in 20 minutes."
+
+Attach one file at a time. If you are using `my-profile.md`, send it in a second message before you start, not together with this one.
 
 Short module. Under 10 minutes. Do not let it run long.
 

@@ -2,6 +2,8 @@
 
 **Setup:** Right after a real interview — same day, ideally within two hours. New chat → attach this file → switch to voice → say "just finished an interview."
 
+Attach one file at a time. If you are using `my-profile.md`, send it in a second message before you start, not together with this one.
+
 This is the best possible use of voice. You just talked for an hour; you don't want to type.
 
 ---

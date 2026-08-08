@@ -1,6 +1,8 @@
 # Module: Pitch and "Tell Me About Yourself"
 
-**Setup:** New chat → attach this file (and `my-profile.md` if you have one) → switch to voice → say "help me with my pitch."
+**Setup:** New chat → attach this file → switch to voice → say "help me with my pitch."
+
+Attach one file at a time. If you are using `my-profile.md`, send it in a second message before you start, not together with this one.
 
 Voice is the right medium here — a pitch that reads well on paper often collapses when spoken.
 
