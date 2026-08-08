@@ -9,8 +9,8 @@ Attach `my-profile.md` in a second message after the module, then start talking.
 At the end of a session, switch out of voice back to text and ask for your updated profile from a desktop session.
 You'll get the whole file back with the new results in it, ready to save over your copy.
 
-Your copy will hold stories, scores, and salary numbers. If you forked this repo, `my-profile.md`
-is already in `.gitignore` so none of that gets committed.
+Your copy will hold your stories, your scores, and your salary numbers. Git is set to ignore
+`my-profile.md`, so those never get committed even if you push this repo somewhere public.
 
 ---
 
