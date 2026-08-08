@@ -1,0 +1,12 @@
+# Your personal profile — never commit this
+my-profile.md
+profile.md
+
+# Transcripts and interview notes
+transcripts/
+notes/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

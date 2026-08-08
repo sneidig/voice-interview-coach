@@ -1,0 +1,92 @@
+# My Interview Profile
+
+Copy this file to `my-profile.md`, fill in what you know, and attach it alongside any module.
+It's the memory the modules don't have on their own.
+
+Update it after each session — most modules will offer you a block to paste in.
+
+`my-profile.md` is gitignored. Your copy stays on your machine.
+
+---
+
+## Basics
+
+- **Target role:**
+- **Seniority:**
+- **Location / remote:**
+- **Timeline:**
+- **Target companies:**
+
+## Background
+
+- **Current / most recent role:**
+- **Years of experience:**
+- **Domain:**
+- **Career transition?** (changing function, industry, or level — say which)
+
+## Where I'm at
+
+- **Biggest concern going in:**
+- **Interviews so far:**
+- **Where I'm getting stuck:** (not hearing back / first rounds / final rounds)
+- **How direct I want feedback:** (1 gentle — 5 blunt)
+
+## Positioning
+
+<!-- From the pitch module -->
+
+- **Core statement:**
+- **10-second version:**
+- **30-second version:**
+- **90-second "tell me about yourself":**
+
+## Storybank
+
+<!-- From the story builder module -->
+
+| # | Story | Covers | Earned secret | Strength |
+|---|-------|--------|---------------|----------|
+| 1 |       |        |               |          |
+| 2 |       |        |               |          |
+| 3 |       |        |               |          |
+
+**Known gaps:**
+
+## Scores over time
+
+<!-- From mock and practice modules -->
+
+| Date | Session | Sub | Str | Rel | Cred | Diff | Notes |
+|------|---------|-----|-----|-----|------|------|-------|
+|      |         |     |     |     |      |      |       |
+
+**Weakest dimension right now:**
+**What I'm working on:**
+
+## Real interviews
+
+<!-- From the debrief module -->
+
+| Date | Company | Round | How it felt | Outcome |
+|------|---------|-------|-------------|---------|
+|      |         |       |             |         |
+
+**Questions I've been asked more than once:**
+**Feedback I've received:**
+
+## Compensation
+
+<!-- From the recruiter screen module -->
+
+- **Floor:**
+- **Target:**
+- **Stretch:**
+- **Sources I used:**
+- **My opening line:**
+
+## Notes to self
+
+<!-- Things that change how you should be coached -->
+<!-- e.g. "I freeze in panels" · "morning interviews go better" · "I undersell technical depth" -->
+
+-
