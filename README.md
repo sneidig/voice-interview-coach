@@ -8,20 +8,46 @@ Adapted from the [Interview Coach skill](https://github.com/noamseg/interview-co
 
 Voice mode doesn't load skills, since skills run in the code execution environment and voice mode doesn't have one. These files carry their workflow inline instead, so you can attach one, switch to voice, and run a session hands-free.
 
-## How to use it
+## Quick Start
 
-1. Download the module you want from `modules/`.
-2. Start a new chat in the Claude app.
-3. Attach the module file and send the message.
-4. Attach `my-profile.md` in a second message if you are using a profile.
-5. Switch to voice mode.
-6. Say "let's start."
+1. Get the files.
 
-Attach one file per message. Sending the module and your profile together in the same message makes voice sessions struggle to read them.
+```bash
+git clone https://github.com/YOUR-USERNAME/voice-interview-coach.git
+cd voice-interview-coach
+```
 
-One module per session too. They give feedback at different points, so running several at once gets muddled. A new chat costs nothing.
+Or download a single module straight from `modules/` if you only want one.
 
-Works on iPad, Android tablet, phone, or desktop. Free plan included.
+2. Make your profile.
+
+Copy `my-profile-template.md` and name the copy `my-profile.md`. Fill in the Basics section, which is five fields and takes a couple of minutes. Leave everything below it empty, since sessions fill those in for you.
+
+Skip this step if you just want to try a module. It works without a profile.
+
+3. Start the chat on a desktop and attach the files.
+
+Open a new chat in the Claude app. Attach `modules/01-story-builder.md` and send that message. Then attach `my-profile.md` in a second message.
+
+One file per message. Sending both together makes voice sessions struggle to read them.
+
+Desktop is just easier for picking files. The chat syncs across your devices, so where you start it doesn't lock you in.
+
+4. Switch to voice, on whatever device you want.
+
+Open that same conversation on your tablet or phone, switch to voice mode, and say "let's start." Now put the screen down and talk.
+
+If you'd rather stay on the desktop, that works too. The point is that the files are already in the conversation, so voice mode has everything it needs.
+
+5. Save what you did.
+
+When the session ends, go back to that conversation on your desktop, switch out of voice back to text, and ask for your updated profile. You'll get the whole `my-profile.md` back with the session's results already merged in. Save it over your copy.
+
+That's how scores, stories, and interview history build up across sessions.
+
+Requires any Claude plan. The free tier is enough.
+
+**One module per session.** They give feedback at different points, so running several at once gets muddled. A new chat costs nothing.
 
 Nothing in these files is Claude-specific. They're plain markdown with no special syntax, so they should port to any assistant that takes an attachment and does voice, though I've only run them in Claude.
 
@@ -52,18 +78,6 @@ Answers are scored on the same five dimensions as the original: Substance, Struc
 Not in here: transcript analysis, resume and LinkedIn work, JD decoding, outreach coaching, company research and prep briefs, role-fit assessment, and the calibration engine that checks whether practice scores predict real outcomes.
 
 Those come down to two things a single attached file can't do. Some of them need computed state across sessions. The rest is document work, where reading a resume out loud is worse than editing it on a screen. The [full skill](https://github.com/noamseg/interview-coach-skill) does all of it, and it's where to go once you're back at a desk.
-
-## The profile file
-
-Chats don't carry over, so a module starts fresh each time.
-
-Make a copy of `my-profile-template.md` and name the copy `my-profile.md`. Leave the template blank so you can start another profile later.
-
-Fill in the Basics section by hand. That's five fields and takes a couple of minutes. Leave everything below it empty, since sessions fill those in for you.
-
-Attach `my-profile.md` in a second message after the module, then start.
-
-When the session ends, switch out of voice back to text and ask for your updated profile from a desktop session. The chat syncs across devices, so you can talk through the session on a tablet and pick the same conversation up on a desktop where the file lives. You'll get the whole file with that session's results already in it, so you save over your old copy instead of merging anything by hand. That's how scores, stories, and interview history accumulate across sessions.
 
 ## Using both together
 
