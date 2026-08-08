@@ -10,6 +10,8 @@ Claude's voice mode can't load skills, since skills need the code execution envi
 
 ## Quick Start
 
+`my-profile.md` is the thread. You build it first, carry it into every module, and update it when each session ends. That's the whole system.
+
 1. Clone the repo:
 
 ```bash
@@ -19,21 +21,23 @@ cd voice-interview-coach
 
 Or [download it as a ZIP](https://github.com/sneidig/voice-interview-coach/archive/refs/heads/main.zip) and unzip.
 
-2. Make your profile:
+2. Build your profile:
 
 ```bash
 cp my-profile-template.md my-profile.md
 ```
 
-Open `my-profile.md` and fill in the Basics section at the top. Five fields. Leave the rest blank, sessions fill those in.
+Open `my-profile.md` and fill in the Basics section at the top. Five fields. Leave the rest blank, the sessions fill those in.
 
-3. Start a new chat in the Claude app and attach `modules/01-story-builder.md`. Send it.
+3. Run module 01. Start a new chat in the Claude app, attach `modules/01-story-builder.md`, and send it. Then attach `my-profile.md` in a second message. One file per message, or voice sessions struggle to read them.
 
-4. Attach `my-profile.md` in a second message. One file per message, or voice sessions struggle to read them.
+4. Switch to voice mode and say "let's start." Talk it through.
 
-5. Switch to voice mode and say "let's start."
+5. When the session ends, switch back to text and say "give me my updated profile." Claude outputs the whole file with everything from that session merged in. Paste it over `my-profile.md`.
 
-6. When you're done, switch back to text and ask for your updated profile. Save what it gives you over `my-profile.md`.
+6. Run module 02 the same way, with the profile you just updated. Then 03. Keep going down the list.
+
+Each session reads what the last one wrote, so by the time you hit the mock interview it already knows your stories, and by the debrief it knows how you've been scoring. That only works if you do step 5 every time.
 
 Requires any Claude plan, free included. Works on desktop, tablet, or phone.
 
@@ -57,11 +61,11 @@ Numbered in the order you'd use them across a job search. Start with `01-story-b
 | `08-debrief.md` | Same-day capture after a real interview | 10 to 20 min |
 | `09-negotiation.md` | Rehearses the offer call | 20 to 30 min |
 
-## The profile file
+## Why the profile matters
 
-Claude doesn't remember anything between conversations, so each session starts cold without it. `my-profile.md` is what carries your stories, scores, and interview history forward.
+Claude doesn't remember anything between conversations. Without `my-profile.md` every session starts cold, so the mock interview won't know the stories you built, and the debrief won't know how you've been scoring.
 
-Update it at the end of every session (step 6 above) and it builds up over time. It's in `.gitignore`, so your personal details never get committed.
+The file is what carries all of that forward. It's in `.gitignore`, so your stories, scores, and salary numbers never get committed.
 
 ## What these cover
 
