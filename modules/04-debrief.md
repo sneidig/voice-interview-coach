@@ -67,7 +67,7 @@ If they don't, this is the only record. Give directional feedback, and be honest
 
 ## Ending
 
-Offer a copyable summary:
+Summarize:
 
 - Company, round, date, format
 - Questions recalled, with their self-read on each
@@ -82,3 +82,11 @@ Then one line on what's next — usually a thank-you note within 24 hours, or an
 ## Voice notes
 
 Let them talk. Your turns should be short questions; theirs should be long. If they're venting, let them finish before moving to the next item — the venting often contains the data.
+
+## Saving your progress
+
+When the session is done, tell them: "Switch out of voice and back to text, then ask me for your updated profile. I'll give you the whole file so you can save over your old copy."
+
+When they ask, output the complete `my-profile.md` in one code block with this session's results merged into the right sections. The whole file, not a diff and not a fragment, so they can replace their copy without editing anything by hand.
+
+If they never attached a profile, build one from scratch using the same section headings.

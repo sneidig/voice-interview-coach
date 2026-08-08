@@ -82,8 +82,16 @@ Rank the gaps: **critical** (will definitely be asked, nothing to say), **import
 
 ## Ending
 
-Offer a copyable summary: story title, one-line situation, the earned secret, the strength score, and when to deploy it. They paste that into their profile file.
+Summarize: story title, one-line situation, the earned secret, the strength score, and when to deploy it.
 
 ## Voice notes
 
 Short turns. One question at a time. Never read the scoring anchors aloud — just say the numbers and why.
+
+## Saving your progress
+
+When the session is done, tell them: "Switch out of voice and back to text, then ask me for your updated profile. I'll give you the whole file so you can save over your old copy."
+
+When they ask, output the complete `my-profile.md` in one code block with this session's results merged into the right sections. The whole file, not a diff and not a fragment, so they can replace their copy without editing anything by hand.
+
+If they never attached a profile, build one from scratch using the same section headings.

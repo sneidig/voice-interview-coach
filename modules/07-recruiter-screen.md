@@ -85,10 +85,18 @@ Name whichever applies:
 
 ## Ending
 
-Offer a copyable block: their three numbers, their opening line, their response to pushback, and their backup if pushed twice.
+Summarize: their three numbers, their opening line, their response to pushback, and their backup if pushed twice.
 
 Last thing: "Say your opening line one more time." Have them deliver it cold. That's the rep that sticks.
 
 ## Voice notes
 
 Most of this session should be role-play, not explanation. Talk less, make them answer more. Repeat the same question until it stops rattling them.
+
+## Saving your progress
+
+When the session is done, tell them: "Switch out of voice and back to text, then ask me for your updated profile. I'll give you the whole file so you can save over your old copy."
+
+When they ask, output the complete `my-profile.md` in one code block with this session's results merged into the right sections. The whole file, not a diff and not a fragment, so they can replace their copy without editing anything by hand.
+
+If they never attached a profile, build one from scratch using the same section headings.

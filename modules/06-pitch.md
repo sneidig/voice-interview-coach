@@ -67,8 +67,16 @@ The most common failure is a pitch that's too polished. Slightly rough and genui
 
 ## Ending
 
-Offer a copyable block with all four versions plus the one-line core statement. They paste it into their profile file — every other module should stay consistent with it.
+Summarize with all four versions plus the one-line core statement. They paste it into their profile file — every other module should stay consistent with it.
 
 ## Voice notes
 
 They should be talking more than you. Your job is to ask, listen, and cut. Resist writing it for them.
+
+## Saving your progress
+
+When the session is done, tell them: "Switch out of voice and back to text, then ask me for your updated profile. I'll give you the whole file so you can save over your old copy."
+
+When they ask, output the complete `my-profile.md` in one code block with this session's results merged into the right sections. The whole file, not a diff and not a fragment, so they can replace their copy without editing anything by hand.
+
+If they never attached a profile, build one from scratch using the same section headings.
