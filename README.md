@@ -12,12 +12,13 @@ Voice mode doesn't load skills, since skills run in the code execution environme
 
 1. Get the files.
 
-```bash
-git clone https://github.com/YOUR-USERNAME/voice-interview-coach.git
-cd voice-interview-coach
-```
+Open `modules/` above, click the module you want, and download it. That's all you need to start.
 
-Or download a single module straight from `modules/` if you only want one.
+If you'd rather have all of them, use the green Code button and pick Download ZIP, or clone it:
+
+```bash
+git clone https://github.com/sneidig/voice-interview-coach.git
+```
 
 2. Make your profile.
 
