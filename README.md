@@ -27,8 +27,6 @@ Nothing in these files is Claude-specific. They're plain markdown with no specia
 
 ## The modules
 
-| File | What it does | How long |
-|---|---|---|
 They're numbered in the order you'd use them across a job search. Start at the top and work down, or jump to whichever one matches where you are.
 
 | File | What it does | How long |
