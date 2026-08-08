@@ -29,17 +29,21 @@ Nothing in these files is Claude-specific. They're plain markdown with no specia
 
 | File | What it does | How long |
 |---|---|---|
-| `01-mock-interview.md` | Full simulated interview, 4 to 6 questions, no feedback until the end | 30 to 45 min |
-| `02-practice-drills.md` | Short drills with feedback every round. Compression, pushback, pivots, gap handling | 15 to 30 min |
-| `03-story-builder.md` | Surfaces stories out loud and sharpens them | 20 to 40 min |
-| `04-debrief.md` | Same-day capture after a real interview | 10 to 20 min |
-| `05-pre-interview-hype.md` | Warmup 20 minutes before the real thing | Under 10 min |
-| `06-pitch.md` | Tell me about yourself, plus the 10, 30, and 60 second versions | 20 to 30 min |
-| `07-recruiter-screen.md` | Role-plays the salary expectations question until it stops rattling you | 15 to 25 min |
-| `08-negotiation.md` | Rehearses the offer call | 20 to 30 min |
-| `09-role-pressure-test.md` | A specialist in your field attacks your best project | 15 to 25 min |
+They're numbered in the order you'd use them across a job search. Start at the top and work down, or jump to whichever one matches where you are.
 
-Start with `03-story-builder.md` if you're starting from scratch. You need material before drills are worth much.
+| File | What it does | How long |
+|---|---|---|
+| `01-story-builder.md` | Surfaces stories out loud and sharpens them | 20 to 40 min |
+| `02-pitch.md` | Tell me about yourself, plus the 10, 30, and 60 second versions | 20 to 30 min |
+| `03-practice-drills.md` | Short drills with feedback every round. Compression, pushback, pivots, gap handling | 15 to 30 min |
+| `04-mock-interview.md` | Full simulated interview, 4 to 6 questions, no feedback until the end | 30 to 45 min |
+| `05-role-pressure-test.md` | A specialist in your field attacks your best project | 15 to 25 min |
+| `06-recruiter-screen.md` | Role-plays the salary expectations question until it stops rattling you | 15 to 25 min |
+| `07-pre-interview-hype.md` | Warmup 20 minutes before the real thing | Under 10 min |
+| `08-debrief.md` | Same-day capture after a real interview | 10 to 20 min |
+| `09-negotiation.md` | Rehearses the offer call | 20 to 30 min |
+
+Start with `01-story-builder.md`. The drills and mocks need material to work with, and that's where the material comes from.
 
 ## The profile file
 
