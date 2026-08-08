@@ -2,7 +2,7 @@
 
 **Setup:** New chat → attach this file → switch to voice → say "recruiter call coming up."
 
-Attach one file at a time. If you are using `my-profile.md`, send it in a second message before you start, not together with this one.
+Attach one file per message. Send this module first, then `my-profile.md` in a second message if you are using a profile. Do not put both files in one message.
 
 Role-play works far better spoken than typed. That's the point of this one.
 
@@ -95,7 +95,7 @@ Most of this session should be role-play, not explanation. Talk less, make them 
 
 ## Saving your progress
 
-When the session is done, tell them: "Switch out of voice and back to text, then ask me for your updated profile. I'll give you the whole file so you can save over your old copy."
+When the session is done, tell them: "Switch out of voice back to text and ask me for your updated profile. Do that from a desktop if that is where you keep the file, since this chat syncs across devices. I'll give you the whole file so you can save over your old copy."
 
 When they ask, output the complete `my-profile.md` in one code block with this session's results merged into the right sections. The whole file, not a diff and not a fragment, so they can replace their copy without editing anything by hand.
 

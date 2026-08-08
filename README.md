@@ -12,8 +12,8 @@ Voice mode doesn't load skills, since skills run in the code execution environme
 
 1. Download the module you want from `modules/`.
 2. Start a new chat in the Claude app.
-3. Attach the module file and send it.
-4. If you're using `my-profile.md`, attach it in a second message.
+3. Attach the module file and send the message.
+4. Attach `my-profile.md` in a second message if you are using a profile.
 5. Switch to voice mode.
 6. Say "let's start."
 
@@ -45,15 +45,15 @@ Start with `03-story-builder.md` if you're starting from scratch. You need mater
 
 Chats don't carry over, so a module starts fresh each time.
 
-Make a copy of `my-profile-template.md` and name the copy `my-profile.md`. Leave the template blank so you can reuse it later.
+Make a copy of `my-profile-template.md` and name the copy `my-profile.md`. Leave the template blank so you can start another profile later.
 
 Fill in the Basics section by hand. That's five fields and takes a couple of minutes. Leave everything below it empty, since sessions fill those in for you.
 
-Attach it in a second message after the module, then start.
+Attach `my-profile.md` in a second message after the module, then start.
 
-When the session ends, switch out of voice back to text and ask for your updated profile. You'll get the whole file with that session's results already in it, so you save over your old copy instead of merging anything by hand. That's how scores, stories, and interview history accumulate across sessions.
+When the session ends, switch out of voice back to text and ask for your updated profile from a desktop session. The chat syncs across devices, so you can talk through the session on a tablet and pick the same conversation up on a desktop where the file lives. You'll get the whole file with that session's results already in it, so you save over your old copy instead of merging anything by hand. That's how scores, stories, and interview history accumulate across sessions.
 
-It's gitignored. Your copy stays on your machine.
+`my-profile.md` is gitignored. Your copy stays on your machine.
 
 ## License
 

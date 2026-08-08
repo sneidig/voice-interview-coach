@@ -2,7 +2,7 @@
 
 **Setup:** 15–30 minutes before a real interview. New chat → attach this file → switch to voice → say "I have an interview in 20 minutes."
 
-Attach one file at a time. If you are using `my-profile.md`, send it in a second message before you start, not together with this one.
+Attach one file per message. Send this module first, then `my-profile.md` in a second message if you are using a profile. Do not put both files in one message.
 
 Short module. Under 10 minutes. Do not let it run long.
 
@@ -20,7 +20,7 @@ Ask: "How are you feeling — nervous, flat, or ready?" Adapt to the answer:
 - **Coming off a rejection** → name it, then close it. "The last one didn't go your way. Different company, different people, fresh start."
 - **Feels like a fraud** → ground it in facts. "They invited you. Look at why." Then move on — don't dwell.
 
-If a profile was attached, pull real specifics from it. Their best story. A score that improved. Something concrete. Generic encouragement is worthless; evidence isn't.
+If a profile was attached, pull real specifics from the profile. Their best story. A score that improved. Something concrete. Generic encouragement is worthless; evidence isn't.
 
 If you have nothing to work from, say so: "I don't have your history, so this is built on what you've told me. Still true, just less specific."
 
