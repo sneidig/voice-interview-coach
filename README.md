@@ -45,6 +45,16 @@ They're numbered in the order you'd use them across a job search. Start at the t
 
 Start with `01-story-builder.md`. The drills and mocks need material to work with, and that's where the material comes from.
 
+## What these cover
+
+The parts of interview prep that work as a conversation.
+
+Answers are scored on the same five dimensions as the original: Substance, Structure, Relevance, Credibility, and Differentiation. You get the drill ladder, mock formats including panel, earned-secret extraction, story red-teaming, signal reading in the debrief, and the anchoring logic behind the salary conversation.
+
+Not in here: transcript analysis, resume and LinkedIn work, JD decoding, outreach coaching, company research and prep briefs, role-fit assessment, and the calibration engine that checks whether practice scores predict real outcomes.
+
+Those come down to two things a single attached file can't do. Some of them need computed state across sessions. The rest is document work, where reading a resume out loud is worse than editing it on a screen. The [full skill](https://github.com/noamseg/interview-coach-skill) does all of it, and it's where to go once you're back at a desk.
+
 ## The profile file
 
 Chats don't carry over, so a module starts fresh each time.
@@ -56,6 +66,14 @@ Fill in the Basics section by hand. That's five fields and takes a couple of min
 Attach `my-profile.md` in a second message after the module, then start.
 
 When the session ends, switch out of voice back to text and ask for your updated profile from a desktop session. The chat syncs across devices, so you can talk through the session on a tablet and pick the same conversation up on a desktop where the file lives. You'll get the whole file with that session's results already in it, so you save over your old copy instead of merging anything by hand. That's how scores, stories, and interview history accumulate across sessions.
+
+## Using both together
+
+The full skill already supports spoken practice. Pair it with a dictation tool like Superwhisper and you can talk through mock interviews while keeping the scoring, the transcript analysis, and the coaching state that carries between sessions. That's the stronger setup when you're at your desk.
+
+These modules are for the times you're not. A tablet on the couch, a phone before a call, a machine without your tools installed. Voice mode handles the speaking on its own, so there's nothing to set up.
+
+They also chain. Talk through a mock here, then bring the transcript to the full skill and run `analyze` for scoring that sticks around.
 
 ## License
 
