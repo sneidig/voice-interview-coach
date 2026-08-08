@@ -1,9 +1,13 @@
 # My Interview Profile
 
-Copy this file to `my-profile.md`, fill in what you know, and attach it alongside any module.
-It's the memory the modules don't have on their own.
+Make a copy of this file and name the copy `my-profile.md`. Leave this template where it is.
+Your copy is the memory the modules don't have on their own.
 
-Update it after each session — most modules will offer you a block to paste in.
+Fill in the Basics section below by hand. Leave the rest empty. Sessions fill those in.
+
+To use it, attach `my-profile.md` in a second message after the module, then start talking.
+At the end of a session, switch out of voice back to text and ask for your updated profile.
+You'll get the whole file back with the new results in it, ready to save over your copy.
 
 `my-profile.md` is gitignored. Your copy stays on your machine.
 

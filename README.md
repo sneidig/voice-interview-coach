@@ -45,7 +45,11 @@ Start with `03-story-builder.md` if you're starting from scratch. You need mater
 
 Chats don't carry over, so a module starts fresh each time.
 
-Copy `my-profile-template.md` to `my-profile.md` and fill in your target role and background. Attach it in a second message after the module, then start.
+Make a copy of `my-profile-template.md` and name the copy `my-profile.md`. Leave the template itself alone so it stays in the repo.
+
+Fill in the Basics section by hand. That's five fields and takes a couple of minutes. Leave everything below it empty, since sessions fill those in for you.
+
+Attach it in a second message after the module, then start.
 
 When the session ends, switch out of voice back to text and ask for your updated profile. You'll get the whole file with that session's results already in it, so you save over your old copy instead of merging anything by hand. That's how scores, stories, and interview history accumulate across sessions.
 
