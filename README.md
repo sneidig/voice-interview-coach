@@ -45,7 +45,7 @@ Start with `03-story-builder.md` if you're starting from scratch. You need mater
 
 Chats don't carry over, so a module starts fresh each time.
 
-Make a copy of `my-profile-template.md` and name the copy `my-profile.md`. Leave the template itself alone so it stays in the repo.
+Make a copy of `my-profile-template.md` and name the copy `my-profile.md`. Leave the template blank so you can reuse it later.
 
 Fill in the Basics section by hand. That's five fields and takes a couple of minutes. Leave everything below it empty, since sessions fill those in for you.
 

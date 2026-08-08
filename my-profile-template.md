@@ -1,6 +1,6 @@
 # My Interview Profile
 
-Make a copy of this file and name the copy `my-profile.md`. Leave this template where it is.
+Make a copy of this file and name the copy `my-profile.md`. Leave this one blank so you can reuse it.
 Your copy is the memory the modules don't have on their own.
 
 Fill in the Basics section below by hand. Leave the rest empty. Sessions fill those in.
